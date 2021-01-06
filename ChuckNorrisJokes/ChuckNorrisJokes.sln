@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChuckNorrisJokes", "ChuckNorrisJokes.csproj", "{6EBF0DE4-6BC0-4810-98F6-9B7F289DAAD9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A82E50B0-FAA0-44E1-B49F-CEC8D2FEA3B4} = {A82E50B0-FAA0-44E1-B49F-CEC8D2FEA3B4}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChuckNorrisJokes.API", "..\ChuckNorrisJokes.API\ChuckNorrisJokes.API.csproj", "{A82E50B0-FAA0-44E1-B49F-CEC8D2FEA3B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EBF0DE4-6BC0-4810-98F6-9B7F289DAAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBF0DE4-6BC0-4810-98F6-9B7F289DAAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBF0DE4-6BC0-4810-98F6-9B7F289DAAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBF0DE4-6BC0-4810-98F6-9B7F289DAAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82E50B0-FAA0-44E1-B49F-CEC8D2FEA3B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82E50B0-FAA0-44E1-B49F-CEC8D2FEA3B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82E50B0-FAA0-44E1-B49F-CEC8D2FEA3B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82E50B0-FAA0-44E1-B49F-CEC8D2FEA3B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA82F2A9-7626-4520-AF73-2EF9560FA1C7}
+	EndGlobalSection
+EndGlobal

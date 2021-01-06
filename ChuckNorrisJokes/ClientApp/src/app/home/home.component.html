@@ -1,0 +1,35 @@
+
+  <div class="main-content">
+
+<!-- Logo -->
+<img  src="../../assets/img/chucknorris_logo_coloured_small@2x.png" alt="Chuck Norris io Logo" class="logo">
+<!-- End of Logo -->
+
+<!-- search -->
+<div class="search-content">
+  <input  type="text" placeholder="Try me..." #searchTerm>
+  <button id="highlight" type="button" (click)="searchbySearchTerm(searchTerm.value)">Search</button>
+</div>
+<!-- End of Search -->
+
+<!-- Categories -->
+<div class="categories">
+  <span
+  class="category"
+  *ngFor="let category of categories"
+  (click)="searchbyCategory(category)">{{category}}</span>
+</div>
+
+<!-- End of Categories -->
+
+<!-- Jokes -->
+<div class="joke-wrapper" *ngFor="let joke of  jokes">
+  <div class="joke">
+  <img [src]="joke.icon_url" alt="Icon">
+  <p>{{joke.value }}</p>
+  </div>
+</div>
+
+<!-- End of Jokes -->
+
+</div>

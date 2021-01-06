@@ -1,0 +1,78 @@
+/* Main Content */
+
+.main-content{
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0px;
+}
+
+/* Logo */
+.logo{
+  width: 50%;
+}
+
+/* search-content */
+.search-content{
+  margin: 80px 0px 15px;
+  display: flex;
+  margin-bottom: 80px;
+}
+.search-content input{
+  flex: 3;
+  margin-right: 30px;
+  padding: 10px 8px;
+  border-radius: 15px;
+
+}
+
+.search-content button{
+  flex: 1;
+  background-color: darkslategray;
+  color: azure;
+  outline: none;
+  border: 1px solid gray;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+
+/* categories */
+.categories .category{
+  display: inline-block;
+  padding: 4px;
+  border: 1px solid gray;
+  margin: 0px 5px 10px 0px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: darkslategrey;
+}
+
+.active, .category:hover {
+  color: darkturquoise;
+  background-color: darkturquoise;
+}
+
+/* jokes */
+.joke-wrapper{
+  padding: 15px 10px;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+  margin-top: 10%;
+  border-radius: 15px;
+}
+
+.joke-wrapper .joke{
+  display: flex;
+}
+
+.joke-wrapper .joke img{
+  width: 50px;
+  flex: 1;
+}
+
+.joke-wrapper .joke p {
+  flex: 8;
+  margin-left: 20px;
+  text-align: left;
+}

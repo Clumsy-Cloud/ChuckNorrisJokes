@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChuckNorrisJokes.API", "ChuckNorrisJokes.API\ChuckNorrisJokes.API.csproj", "{D83D0E5C-E187-40A3-9F62-F28F0A92BF3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChuckNorrisJokes", "ChuckNorrisJokes\ChuckNorrisJokes.csproj", "{D94EA0E3-5A54-45F1-9028-A0633399EBA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D83D0E5C-E187-40A3-9F62-F28F0A92BF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D83D0E5C-E187-40A3-9F62-F28F0A92BF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D83D0E5C-E187-40A3-9F62-F28F0A92BF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D83D0E5C-E187-40A3-9F62-F28F0A92BF3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94EA0E3-5A54-45F1-9028-A0633399EBA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94EA0E3-5A54-45F1-9028-A0633399EBA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94EA0E3-5A54-45F1-9028-A0633399EBA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94EA0E3-5A54-45F1-9028-A0633399EBA1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {131DB9C0-BA95-48E8-A33F-FB7DCED951BF}
+	EndGlobalSection
+EndGlobal
